@@ -50,8 +50,8 @@ for index, row in df.iterrows():
     )
 
     if index == 4:
-        with open("C:\\Users\\Ibe\\Desktop\\Charges\\firstfive2.json", 'w') as f:
+        with open("C:\\Users\\USER\\Desktop\\Charges\\firstfive2.json", 'w') as f:
             json.dump(json_output, f)
 
-with open("C:\\Users\\Ibe\\Desktop\\Charges\\output2.json", 'w') as f:
+with open("C:\\Users\\USER\\Desktop\\Charges\\output2.json", 'w') as f:
     json.dump(json_output, f)
